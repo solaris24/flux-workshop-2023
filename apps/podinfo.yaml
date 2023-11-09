@@ -9,7 +9,7 @@ spec:
   verify:
     provider: cosign
   ref:
-    tag: 6.4.55
+    semver: 6.4.x
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
